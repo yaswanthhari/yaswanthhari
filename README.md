@@ -1,65 +1,49 @@
-🐍 Retro Snake Game
+# Yaswanth Hari - Python Developer Portfolio
 
-A classic retro-style Snake game built using HTML, CSS, and JavaScript, inspired by old-school NES aesthetics. Control the snake, eat food, grow longer, and try to beat your high score!
+[![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/github/followers/yaswanthhari?label=Follow&style=social)](https://github.com/yaswanthhari)
 
-🎮 Features
-🟢 Classic snake gameplay
-🎨 Retro NES-style visuals
-⌨️ Keyboard controls (Arrow keys / WASD)
-⏸️ Pause & resume functionality
-🔁 Restart anytime
-📈 Score & High Score tracking (saved in browser)
-⚡ Increasing speed as you progress
-🔄 Screen wrap-around mechanics
-🚀 How to Play
-Open the game in your browser.
-Click Start Game or press any movement key.
-Control the snake using:
-Arrow Keys ⬆️⬇️⬅️➡️
-OR WASD keys
-Eat the red food to grow and increase your score.
-Avoid colliding with yourself.
-Press Spacebar or click Pause to pause/resume.
-🕹️ Controls
-Action	Key / Button
-Move Up	↑ / W
-Move Down	↓ / S
-Move Left	← / A
-Move Right	→ / D
-Pause/Resume	Spacebar / Button
-Restart	Start / Play Again
-🛠️ Technologies Used
-HTML5 – Structure
-CSS3 – Styling (retro pixel theme)
-JavaScript (Vanilla) – Game logic
-Canvas API – Rendering graphics
-LocalStorage – Saving high score
-📂 Project Structure
-snake-game/
-│
-├── index.html   # Main game file (HTML + CSS + JS)
-└── README.md    # Project documentation
-⚙️ Game Mechanics
-The snake moves on a grid-based system.
-Each food increases:
-Score by 10 points
-Snake length
-Game speed gradually increases as you progress.
-The snake wraps around the screen edges.
-Game ends when the snake collides with itself.
-💾 High Score
-Automatically saved in your browser using localStorage.
-Persists even after refreshing the page.
-🧩 Future Improvements (Optional Ideas)
-Sound effects 🎵
-Mobile touch controls 📱
-Difficulty levels ⚡
-Obstacles or walls 🧱
-Leaderboard system 🏆
-📸 Preview
+## 🚀 About Me
+Python Developer with 6 months AI/ML internship experience. I build **production-ready applications** that integrate AI features into real-world tools.
 
-(You can add a screenshot here later)
+**Current Focus:** Real-time systems, FastAPI, Docker, AsyncIO
 
-📜 License
+## 📂 Featured Projects
 
-This project is open-source and free to use for learning and personal projects.
+### 1. Real-time File Organizer
+Automatically organizes Downloads folder using file extensions. Features:
+- 🚀 Real-time monitoring with Watchdog
+- 📝 Production-grade logging with rotation
+- ⚙️ YAML configuration
+- 🐍 Pure Python, no bloat
+
+### 2. AI CLI Summarizer
+Command-line tool that summarizes text/files using Hugging Face models
+- Local AI (no API keys)
+- File & clipboard input
+- Export to markdown
+
+### 3. FastAPI Resume Parser
+Extract skills and generate summaries from PDF resumes
+- PDF text extraction
+- NLP skill detection
+- REST API + Swagger docs
+
+## 🛠️ Tech Stack
+- **Backend:** FastAPI, Flask, SQLite, PostgreSQL
+- **AI/ML:** Transformers, spaCy, scikit-learn
+- **DevOps:** Docker, Git, GitHub Actions
+- **Testing:** pytest, unittest
+- **Logging:** Python logging, loguru
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yaswanthhari&show_icons=true&theme=radical)
+
+## 📫 Connect
+- Portfolio: [yaswanthhariportfolio.vercel.app](https://yaswanthhariportfolio.vercel.app)
+- Email: yaswanth.hari@gmail.com
+
+---
+
+*“Building Python applications that actually solve problems”*
